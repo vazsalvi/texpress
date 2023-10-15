@@ -1,0 +1,465 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 565.96px;
+  border-radius: var(--br-12xl-5);
+  width: 1426.17px;
+  height: 45.82px;
+}
+.vector-icon6,
+.vector-icon7 {
+  position: absolute;
+  top: 4.99px;
+  left: 1759px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-icon7 {
+  left: 1863px;
+  width: 34px;
+}
+.texpress2 {
+  margin: 0;
+}
+.texpress-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.texpress1 {
+  position: absolute;
+  top: 45.82px;
+  left: 179.21px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+  cursor: pointer;
+}
+.div1,
+.vazsalvi1gmailcom {
+  position: absolute;
+  color: var(--color-white);
+}
+.div1 {
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+}
+.vazsalvi1gmailcom {
+  top: 4px;
+  left: 1078px;
+  font-size: var(--font-size-7xl);
+  cursor: pointer;
+}
+.loginsignup1,
+.pricing1 {
+  position: absolute;
+  top: 135px;
+  left: 1879px;
+  cursor: pointer;
+}
+.loginsignup1 {
+  left: 1709px;
+}
+.more-tools1 {
+  position: absolute;
+  top: 135px;
+  left: 1553.78px;
+  color: var(--color-yellowgreen-300);
+  display: flex;
+  align-items: flex-end;
+  width: 114.33px;
+}
+.compress1,
+.de-compress1,
+.home2 {
+  position: absolute;
+  top: 135px;
+  cursor: pointer;
+}
+.de-compress1 {
+  left: 1373.33px;
+  display: flex;
+  align-items: flex-end;
+  width: 139.12px;
+  height: 28px;
+}
+.compress1,
+.home2 {
+  left: 1230.08px;
+}
+.home2 {
+  left: 1126.77px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 173px;
+  left: 1558px;
+  background-color: var(--color-yellowgreen-300);
+  width: 101px;
+  height: 3px;
+}
+.frame-icon4 {
+  position: absolute;
+  top: 2px;
+  left: 1353px;
+  width: 40px;
+  height: 42.86px;
+  overflow: hidden;
+}
+.dbit-logo-2 {
+  position: absolute;
+  top: 0;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+  object-fit: cover;
+}
+.vector-icon8 {
+  position: absolute;
+  top: 4px;
+  left: 1659px;
+  width: 34px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1984px;
+  height: 199px;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 22.45px;
+  font-family: var(--font-oxygen);
+}
+.vector-parent.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.alltools-child {
+  position: absolute;
+  top: 274px;
+  left: 0;
+  background: linear-gradient(
+    90.07deg,
+    #76ba1b 6.05%,
+    rgba(95, 188, 71, 0.37) 50.07%,
+    #00c2ff 94.87%
+  );
+  width: 1983px;
+  height: 430px;
+}
+.alltools-item {
+  position: absolute;
+  top: 489px;
+  left: 102px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame1-icon {
+  position: absolute;
+  height: 8.74%;
+  width: 8.06%;
+  top: 29.89%;
+  right: 84.68%;
+  bottom: 61.37%;
+  left: 7.26%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.frame1-icon:hover {
+  cursor: pointer;
+  animation: 1s ease-in 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.pdf-compression {
+  position: absolute;
+  top: 736px;
+  left: 121px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 266px;
+  height: 45px;
+}
+.alltools-inner {
+  position: absolute;
+  top: 489px;
+  left: 547px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame2-icon {
+  position: absolute;
+  height: 8.74%;
+  width: 8.06%;
+  top: 29.89%;
+  right: 62.15%;
+  bottom: 61.37%;
+  left: 29.79%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame2-icon,
+.frame2-icon:hover {
+  cursor: pointer;
+}
+.word-compression {
+  position: absolute;
+  top: 736px;
+  left: 565px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 282px;
+  height: 45px;
+}
+.alltools-child1 {
+  position: absolute;
+  top: 489px;
+  left: 992px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame3-icon {
+  position: absolute;
+  top: 547px;
+  left: 1038px;
+  border-radius: var(--br-3xl);
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame2-icon:hover,
+.frame3-icon:hover {
+  animation: 2s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.ppt-compression {
+  position: absolute;
+  top: 736px;
+  left: 1025px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 268px;
+  height: 45px;
+}
+.alltools-child2 {
+  position: absolute;
+  top: 489px;
+  left: 1437px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame4-icon {
+  position: absolute;
+  top: 547px;
+  left: 1485px;
+  border-radius: var(--br-3xl);
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+}
+.frame4-icon,
+.frame4-icon:hover {
+  cursor: pointer;
+}
+.text-compression {
+  position: absolute;
+  top: 736px;
+  left: 1470px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 272px;
+  height: 45px;
+}
+.alltools-child3 {
+  position: absolute;
+  top: 1023px;
+  left: 102px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame5-icon {
+  position: absolute;
+  height: 8.74%;
+  width: 8.06%;
+  top: 58.8%;
+  right: 84.68%;
+  bottom: 32.46%;
+  left: 7.26%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.frame4-icon:hover,
+.frame5-icon:hover {
+  animation: 2s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.pdf-de-compression {
+  position: absolute;
+  top: 1291px;
+  left: 121px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 323px;
+  height: 45px;
+}
+.alltools-child4 {
+  position: absolute;
+  top: 1023px;
+  left: 547px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame6-icon {
+  position: absolute;
+  top: 1076px;
+  left: 591px;
+  border-radius: var(--br-3xl);
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.frame6-icon:hover,
+.frame7-icon:hover,
+.frame8-icon:hover {
+  cursor: pointer;
+  animation: 2s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.word-de-compression {
+  position: absolute;
+  top: 1291px;
+  left: 553px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 342px;
+  height: 45px;
+}
+.alltools-child5 {
+  position: absolute;
+  top: 1023px;
+  left: 992px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame7-icon {
+  position: absolute;
+  height: 8.74%;
+  width: 8.06%;
+  top: 58.8%;
+  right: 39.62%;
+  bottom: 32.46%;
+  left: 52.32%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.ppt-de-compression {
+  position: absolute;
+  top: 1291px;
+  left: 1004px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 329px;
+  height: 45px;
+}
+.alltools-child6 {
+  position: absolute;
+  top: 1023px;
+  left: 1437px;
+  border-radius: var(--br-mid);
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 445px;
+  height: 534px;
+}
+.frame8-icon {
+  position: absolute;
+  height: 8.74%;
+  width: 8.06%;
+  top: 58.8%;
+  right: 17.09%;
+  bottom: 32.46%;
+  left: 74.85%;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.text-de-compression {
+  position: absolute;
+  top: 1291px;
+  left: 1442px;
+  font-weight: 800;
+  display: flex;
+  align-items: flex-end;
+  width: 331px;
+  height: 45px;
+}
+.alltools {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1830px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

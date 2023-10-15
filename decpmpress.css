@@ -1,0 +1,206 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.decpmpress-child {
+  position: absolute;
+  height: 2.99%;
+  width: 100%;
+  top: -0.12%;
+  right: 0;
+  bottom: 97.12%;
+  left: 0;
+  background-color: var(--color-snow);
+}
+.decpmpress-item {
+  border: 0;
+  background-color: var(--color-greenyellow);
+  position: absolute;
+  top: 530px;
+  left: calc(50% - 323px);
+  border-radius: var(--br-75xl);
+  width: 662px;
+  height: 128px;
+  cursor: pointer;
+}
+.drop-or-uploadfile {
+  position: absolute;
+  top: 580px;
+  left: calc(50% - 260px);
+}
+.dbit-logo-12,
+.drive-icon1,
+.dropbox-icon1,
+.url-icon1 {
+  position: absolute;
+  top: 596px;
+  left: 834px;
+  width: 123px;
+  height: 109px;
+  object-fit: cover;
+}
+.dbit-logo-12,
+.drive-icon1,
+.url-icon1 {
+  top: 607px;
+  left: 930px;
+  height: 98px;
+}
+.dbit-logo-12,
+.url-icon1 {
+  top: 601px;
+  left: 1038px;
+  width: 122px;
+  height: 110.81px;
+}
+.dbit-logo-12 {
+  top: 0;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+}
+.frame-child4 {
+  position: absolute;
+  top: 0;
+  left: 565.96px;
+  border-radius: var(--br-12xl-5);
+  width: 1426.17px;
+  height: 45.82px;
+}
+.vector-icon12,
+.vector-icon13,
+.vector-icon14 {
+  position: absolute;
+  top: 4.99px;
+  left: 1759px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-icon13,
+.vector-icon14 {
+  left: 1658px;
+  width: 34px;
+}
+.vector-icon14 {
+  left: 1863px;
+}
+.texpress6 {
+  margin: 0;
+}
+.texpress-txt2 {
+  line-break: anywhere;
+  width: 100%;
+}
+.texpress5 {
+  position: absolute;
+  top: 45.82px;
+  left: 179.21px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+  cursor: pointer;
+}
+.div3,
+.vazsalvi1gmailcom1 {
+  position: absolute;
+  color: var(--color-white);
+}
+.div3 {
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+}
+.vazsalvi1gmailcom1 {
+  top: 4px;
+  left: 1078px;
+  font-size: var(--font-size-7xl);
+  cursor: pointer;
+}
+.loginsignup3,
+.pricing3 {
+  position: absolute;
+  top: 135px;
+  left: 1879px;
+  cursor: pointer;
+}
+.loginsignup3 {
+  left: 1709px;
+}
+.de-compress3,
+.more-tools3 {
+  position: absolute;
+  top: 135px;
+  display: flex;
+  align-items: flex-end;
+}
+.more-tools3 {
+  left: 1553.78px;
+  width: 114.33px;
+  cursor: pointer;
+}
+.de-compress3 {
+  left: 1373.33px;
+  color: var(--color-yellowgreen-300);
+  width: 139.12px;
+  height: 28px;
+}
+.compress4,
+.home4 {
+  position: absolute;
+  top: 135px;
+  left: 1230.08px;
+  cursor: pointer;
+}
+.home4 {
+  left: 1126.77px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 172px;
+  left: 1383px;
+  background-color: var(--color-yellowgreen-300);
+  width: 117px;
+  height: 3px;
+}
+.dbit-logo-1-parent,
+.frame-icon6 {
+  position: absolute;
+  top: 2px;
+  left: 1353px;
+  width: 40px;
+  height: 42.86px;
+  overflow: hidden;
+}
+.dbit-logo-1-parent {
+  top: 0;
+  left: 0;
+  width: 1984px;
+  height: 199px;
+  opacity: 0;
+  font-size: 22.45px;
+}
+.dbit-logo-1-parent.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.decpmpress {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1133px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-oxygen);
+}
