@@ -22,6 +22,8 @@
   border: 2px solid var(--color-dimgray);
   background-color: var(--color-white);
   position: absolute;
+  font-size: larger;
+  padding-left: 6%;
   top: 603px;
   left: 236px;
   border-radius: var(--br-8xs);
