@@ -289,8 +289,7 @@
   left: 179.21px;
   font-size: 40.73px;
   background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
   display: flex;
   align-items: flex-end;
   width: 216.88px;
