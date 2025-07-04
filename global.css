@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-oxygen: Oxygen;
+  --font-overlock-sc: "Overlock SC";
+  --font-oxanium: Oxanium;
+  --font-inherit: inherit;
+  --font-patua-one: "Patua One";
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-3xl-5: 22.5px;
+  --font-size-6xl-3: 25.3px;
+  --font-size-21xl-7: 40.7px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-3xl-3: 22.3px;
+  --font-size-10xl-6: 29.6px;
+  --font-size-11xl-1: 30.1px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-yellowgreen-100: #7dcf0e;
+  --color-yellowgreen-200: #76ba1b;
+  --color-black: #000;
+  --color-snow: #fffbfb;
+  --color-powderblue-100: #c8effb;
+  --color-powderblue-200: #c9e6e6;
+  --color-dimgray: #737373;
+  --color-tomato: #f74343;
+  --color-gainsboro: #d9d9d9;
+  --color-darkslateblue: #3b5998;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-341xl: 360px;
+  --br-12xl-5: 31.5px;
+  --br-3xl: 22px;
+  --br-mid: 17px;
+  --br-lgi: 19px;
+  --br-xs: 12px;
+  --br-8xs: 5px;
+}

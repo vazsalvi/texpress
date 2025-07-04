@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overlock SC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <div class="desktop-2-child"></div>
+      <img class="desktop-2-item" alt="" src="./public/rectangle-2.svg" />
+
+      <div class="phone-square-logo1"></div>
+      <img class="vector-icon3" alt="" src="./public/vector3.svg" />
+
+      <img
+        class="vector-icon4"
+        alt=""
+        src="./public/vector4.svg"
+        id="vectorIcon1"
+      />
+
+      <img
+        class="vector-icon5"
+        alt=""
+        src="./public/vector5.svg"
+        id="vectorIcon2"
+      />
+
+      <img
+        class="vector-icon6"
+        alt=""
+        src="./public/vector6.svg"
+        id="vectorIcon3"
+      />
+
+      <img class="dbit-logo-11" alt="" src="./public/dbit-logo-1@2x.png" />
+
+      <div class="texpress2" id="tEXPRESSText">
+        <span class="texpress-txt1">
+          <p class="texpress3">TEXPRESS</p>
+        </span>
+      </div>
+      <div class="div1">123456789</div>
+      <div class="abcgmailcom1" id="abcgmailcomText">abc@gmail.com</div>
+      <div class="pricing1" id="pricingText">Pricing</div>
+      <div class="loginsignup1" id="loginsignupText">login/signup</div>
+      <div class="more-tools1" id="moreToolsText">More Tools</div>
+      <div class="de-compress1" id="deCompressText">De-Compress</div>
+      <div class="compress3">Compress</div>
+      <div class="home1" id="homeText">Home</div>
+      <div class="desktop-2-inner"></div>
+      <img class="box-drop-2" alt="" src="./public/box-drop-2@2x.png" />
+
+      <div class="drop-or-upload">DROP OR UPLOAD FILE FOR COMPRESSION</div>
+      <img class="dropbox-icon" alt="" src="./public/dropbox@2x.png" />
+
+      <img class="drive-icon" alt="" src="./public/drive@2x.png" />
+
+      <img class="url-icon" alt="" src="./public/url@2x.png" />
+    </div>
+
+    <script>
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function () {
+          window.open("https://www.instagram.com/");
+        });
+      }
+      
+      var vectorIcon2 = document.getElementById("vectorIcon2");
+      if (vectorIcon2) {
+        vectorIcon2.addEventListener("click", function () {
+          window.open("https://www.facebook.com/");
+        });
+      }
+      
+      var vectorIcon3 = document.getElementById("vectorIcon3");
+      if (vectorIcon3) {
+        vectorIcon3.addEventListener("click", function () {
+          window.open("https://twitter.com/");
+        });
+      }
+      
+      var tEXPRESSText = document.getElementById("tEXPRESSText");
+      if (tEXPRESSText) {
+        tEXPRESSText.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      
+      const abcgmailcomText = document.getElementById("abcgmailcomText");
+      if (abcgmailcomText) {
+        abcgmailcomText.addEventListener("click", function () {
+          window.location.href = "mailto:vazsalvi1@gmail.com";
+        });
+      }
+      
+      var pricingText = document.getElementById("pricingText");
+      if (pricingText) {
+        pricingText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-9.html";
+        });
+      }
+      
+      var loginsignupText = document.getElementById("loginsignupText");
+      if (loginsignupText) {
+        loginsignupText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-10.html";
+        });
+      }
+      
+      var moreToolsText = document.getElementById("moreToolsText");
+      if (moreToolsText) {
+        moreToolsText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var deCompressText = document.getElementById("deCompressText");
+      if (deCompressText) {
+        deCompressText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-3.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+.desktop-3-child {
+  position: absolute;
+  height: 2.99%;
+  width: 100%;
+  top: -0.12%;
+  right: 0;
+  bottom: 97.12%;
+  left: 0;
+  background-color: var(--color-snow);
+}
+.desktop-3-item {
+  position: absolute;
+  top: 0;
+  left: 565.96px;
+  border-radius: var(--br-12xl-5);
+  width: 1426.17px;
+  height: 45.82px;
+}
+.phone-square-logo2 {
+  position: absolute;
+  top: 11px;
+  left: 1367px;
+  background-color: var(--color-white);
+  width: 26.73px;
+  height: 25.46px;
+  overflow: hidden;
+}
+.vector-icon7 {
+  position: absolute;
+  top: 9.98px;
+  left: 1367px;
+  width: 27px;
+  height: 26.96px;
+}
+.vector-icon10,
+.vector-icon8,
+.vector-icon9 {
+  position: absolute;
+  top: 4.99px;
+  left: 1759px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-icon10,
+.vector-icon9 {
+  left: 1658px;
+  width: 34px;
+}
+.vector-icon10 {
+  left: 1863px;
+}
+.dbit-logo-12 {
+  position: absolute;
+  top: -1px;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+  object-fit: cover;
+}
+.texpress5 {
+  margin: 0;
+}
+.texpress-txt2 {
+  line-break: anywhere;
+  width: 100%;
+}
+.texpress4 {
+  position: absolute;
+  top: 45.82px;
+  left: 179.21px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+  cursor: pointer;
+}
+.abcgmailcom2,
+.div2 {
+  position: absolute;
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+  color: var(--color-white);
+}
+.abcgmailcom2 {
+  top: 5px;
+  left: 1100px;
+  cursor: pointer;
+}
+.loginsignup2,
+.pricing2 {
+  position: absolute;
+  top: 135px;
+  left: 1879px;
+  cursor: pointer;
+}
+.loginsignup2 {
+  left: 1709px;
+}
+.de-compress2,
+.more-tools2 {
+  position: absolute;
+  top: 135px;
+  display: flex;
+  align-items: flex-end;
+}
+.more-tools2 {
+  left: 1553.78px;
+  width: 114.33px;
+  cursor: pointer;
+}
+.de-compress2 {
+  left: 1373.33px;
+  color: var(--color-yellowgreen-200);
+  width: 139.12px;
+  height: 28px;
+}
+.compress4,
+.home2 {
+  position: absolute;
+  top: 135px;
+  left: 1230.08px;
+  cursor: pointer;
+}
+.home2 {
+  left: 1126.77px;
+}
+.desktop-3-inner {
+  position: absolute;
+  top: 172px;
+  left: 1383px;
+  background-color: var(--color-yellowgreen-200);
+  width: 117px;
+  height: 3px;
+}
+.box-drop-21 {
+  position: absolute;
+  top: calc(50% - 63.5px);
+  left: calc(50% - 475px);
+  width: 950px;
+  height: 202px;
+  object-fit: cover;
+}
+.box-drop-21,
+.box-drop-21:hover {
+  cursor: pointer;
+}
+.drop-or-uploadfile {
+  position: absolute;
+  top: 561px;
+  left: calc(50% - 352px);
+  font-size: var(--font-size-13xl);
+}
+.drive-icon1,
+.dropbox-icon1,
+.url-icon1 {
+  position: absolute;
+  top: 596px;
+  left: 834px;
+  width: 123px;
+  height: 109px;
+  object-fit: cover;
+}
+.drive-icon1,
+.url-icon1 {
+  top: 607px;
+  left: 930px;
+  height: 98px;
+}
+.url-icon1 {
+  top: 601px;
+  left: 1038px;
+  width: 122px;
+  height: 110.81px;
+}
+.desktop-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1133px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 22.45px;
+  color: var(--color-black);
+  font-family: var(--font-oxygen);
+}
