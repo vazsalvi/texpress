@@ -65,7 +65,6 @@ Open to feature suggestions.
 ## 👤 Author
 
 Made with ❤️ by [Salvi Vaz](https://github.com/vazsalvi)  
-📺 Project Demo: [Watch on YouTube](https://www.youtube.com/watch?v=Lfoo608Dwik)
 
 ---
 
