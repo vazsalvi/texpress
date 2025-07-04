@@ -68,4 +68,8 @@ Open to feature suggestions.
 Made with ❤️ by [Salvi Vaz](https://github.com/vazsalvi)  
 
 ---
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 
