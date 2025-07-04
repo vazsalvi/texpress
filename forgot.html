@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./forgot.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Patua One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overlock SC:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="forgot">
+      <div class="reset-your-password">Reset your password</div>
+      <input class="forgot-child" type="text" />
+
+      <div class="password-you-remember">Password you remember</div>
+      <img class="frame-icon17" alt="" src="./public/frame13.svg" />
+
+      <input class="forgot-item" type="text" />
+
+      <div class="enter-your-email-container2">
+        <p class="please-also-check">
+          Enter your email and check your inbox for instructions.
+        </p>
+        <p class="please-also-check">Please also check your spam folder.</p>
+      </div>
+      <div class="enter-your-email5">Enter your email</div>
+      <img class="frame-icon18" alt="" src="./public/frame9.svg" />
+
+      <div class="already-member-log-container1" id="alreadyMemberLog">
+        <span>Already member?</span>
+        <span class="log-in2"> Log in</span>
+      </div>
+      <div class="forgot-inner"></div>
+      <div class="sign-up1">Sign up</div>
+      <div class="forgot-child1"></div>
+      <img
+        class="screenshot-133-12"
+        alt=""
+        src="./public/screenshot-133-1@2x.png"
+      />
+
+      <div class="enter-your-email-container3">
+        <p class="please-also-check">
+          Enter your email and password to access your TEXPRESS
+        </p>
+        <p class="please-also-check">
+          account. You are one step closer to boosting your
+        </p>
+        <p class="please-also-check">document productivity.</p>
+      </div>
+      <h2 class="log-in-to2">Log in to your workspace</h2>
+      <div class="vector-parent8" data-animate-on-scroll>
+        <img
+          class="vector-icon33"
+          alt=""
+          src="./public/vector6.svg"
+          id="vectorIcon"
+        />
+
+        <img class="frame-child32" alt="" src="./public/rectangle-21.svg" />
+
+        <img class="dbit-logo-17" alt="" src="./public/dbit-logo-1@2x.png" />
+
+        <img
+          class="vector-icon34"
+          alt=""
+          src="./public/vector7.svg"
+          id="vectorIcon1"
+        />
+
+        <img
+          class="vector-icon35"
+          alt=""
+          src="./public/vector8.svg"
+          id="vectorIcon2"
+        />
+
+        <div class="texpress12" id="tEXPRESSText">TEXPRESS</div>
+        <div class="div8">123456789</div>
+        <div class="vazsalvi1gmailcom6" id="vazsalvi1gmailcomText">
+          vazsalvi1@gmail.com
+        </div>
+        <div class="pricing8" id="pricingText">Pricing</div>
+        <div class="loginsignup8">login/signup</div>
+        <div class="more-tools8" id="moreToolsText">More Tools</div>
+        <div class="de-compress8" id="deCompressText">De-Compress</div>
+        <div class="compress9" id="compressText">Compress</div>
+        <div class="home9" id="homeText">Home</div>
+        <div class="frame-child33"></div>
+        <img class="frame-icon19" alt="" src="./public/frame5.svg" />
+
+        <img
+          class="vector-icon36"
+          alt=""
+          src="./public/vector12.svg"
+          id="vectorIcon3"
+        />
+      </div>
+    </div>
+
+    <script>
+      var alreadyMemberLog = document.getElementById("alreadyMemberLog");
+      if (alreadyMemberLog) {
+        alreadyMemberLog.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function () {
+          window.open("https://www.instagram.com/");
+        });
+      }
+      
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function () {
+          window.open("https://www.facebook.com/");
+        });
+      }
+      
+      var vectorIcon2 = document.getElementById("vectorIcon2");
+      if (vectorIcon2) {
+        vectorIcon2.addEventListener("click", function () {
+          window.open("https://twitter.com");
+        });
+      }
+      
+      var tEXPRESSText = document.getElementById("tEXPRESSText");
+      if (tEXPRESSText) {
+        tEXPRESSText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      const vazsalvi1gmailcomText = document.getElementById("vazsalvi1gmailcomText");
+      if (vazsalvi1gmailcomText) {
+        vazsalvi1gmailcomText.addEventListener("click", function () {
+          window.location.href = "mailto:vazsalvi1@gmail.com";
+        });
+      }
+      
+      var pricingText = document.getElementById("pricingText");
+      if (pricingText) {
+        pricingText.addEventListener("click", function (e) {
+          window.location.href = "./price.html";
+        });
+      }
+      
+      var moreToolsText = document.getElementById("moreToolsText");
+      if (moreToolsText) {
+        moreToolsText.addEventListener("click", function (e) {
+          window.location.href = "./alltools.html";
+        });
+      }
+      
+      var deCompressText = document.getElementById("deCompressText");
+      if (deCompressText) {
+        deCompressText.addEventListener("click", function (e) {
+          window.location.href = "./decpmpress.html";
+        });
+      }
+      
+      var compressText = document.getElementById("compressText");
+      if (compressText) {
+        compressText.addEventListener("click", function (e) {
+          window.location.href = "./compress.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var vectorIcon3 = document.getElementById("vectorIcon3");
+      if (vectorIcon3) {
+        vectorIcon3.addEventListener("click", function () {
+          window.open("https://www.instagram.com/");
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

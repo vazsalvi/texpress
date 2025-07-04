@@ -7,14 +7,22 @@ body {
   /* fonts */
   --font-oxygen: Oxygen;
   --font-overlock-sc: "Overlock SC";
+<<<<<<< HEAD
   --font-oxanium: Oxanium;
   --font-inherit: inherit;
   --font-patua-one: "Patua One";
   --font-roboto: Roboto;
+=======
+  --font-roboto: Roboto;
+  --font-oxanium: Oxanium;
+  --font-inherit: inherit;
+  --font-patua-one: "Patua One";
+>>>>>>> origin/main
   --font-inter: Inter;
 
   /* font sizes */
   --font-size-3xl-5: 22.5px;
+<<<<<<< HEAD
   --font-size-6xl-3: 25.3px;
   --font-size-21xl-7: 40.7px;
   --font-size-29xl: 48px;
@@ -23,10 +31,24 @@ body {
   --font-size-5xl: 24px;
   --font-size-3xl-3: 22.3px;
   --font-size-10xl-6: 29.6px;
+=======
+  --font-size-7xl: 26px;
+  --font-size-6xl-3: 25.3px;
+  --font-size-21xl-7: 40.7px;
+  --font-size-29xl: 48px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-3xl-3: 22.3px;
+  --font-size-10xl-6: 29.6px;
+  --font-size-12xl: 31px;
+>>>>>>> origin/main
   --font-size-11xl-1: 30.1px;
 
   /* Colors */
   --color-white: #fff;
+<<<<<<< HEAD
   --color-yellowgreen-100: #7dcf0e;
   --color-yellowgreen-200: #76ba1b;
   --color-black: #000;
@@ -46,6 +68,40 @@ body {
   --br-12xl-5: 31.5px;
   --br-3xl: 22px;
   --br-mid: 17px;
+=======
+  --color-yellowgreen-100: #ade336;
+  --color-yellowgreen-200: #7dcf0e;
+  --color-yellowgreen-300: #76ba1b;
+  --color-black: #000;
+  --color-snow: #fffbfb;
+  --color-powderblue-100: #c8effb;
+  --color-dimgray: #737373;
+  --color-greenyellow: #b5e51d;
+  --color-lavender: #cedaeb;
+  --color-gray-100: #fdfefe;
+  --color-gray-200: #010002;
+  --color-tomato: #f74343;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-sm: 14px;
+  --padding-12xs-2: 0.2px;
+  --padding-13xl: 32px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+
+  /* Border radiuses */
+  --br-341xl: 360px;
+  --br-3xl: 22px;
+  --br-mid: 17px;
+  --br-12xl-5: 31.5px;
+  --br-75xl: 94px;
+  --br-11xs: 2px;
+  --br-9xs: 4px;
+>>>>>>> origin/main
   --br-lgi: 19px;
   --br-xs: 12px;
   --br-8xs: 5px;

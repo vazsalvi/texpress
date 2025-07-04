@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "mini",
+=======
+  "name": "texpress",
+>>>>>>> origin/main
   "version": "1.0.0",
   "description": "",
   "scripts": {

@@ -1,0 +1,230 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.compress-child {
+  position: absolute;
+  height: 2.99%;
+  width: 100%;
+  top: -0.12%;
+  right: 0;
+  bottom: 97.12%;
+  left: 0;
+  background-color: var(--color-snow);
+}
+.dbit-logo-11 {
+  position: absolute;
+  top: -1px;
+  left: 58px;
+  width: 121.17px;
+  height: 125.24px;
+  object-fit: cover;
+}
+.compress-item {
+  border: 0;
+  background-color: var(--color-greenyellow);
+  position: absolute;
+  top: 530px;
+  left: calc(50% - 331px);
+  border-radius: var(--br-75xl);
+  width: 662px;
+  height: 128px;
+  opacity: 1;
+  cursor: pointer;
+}
+.compress-item.animate {
+  animation: 1s ease 0s 2 normal backwards shadow-drop-bottom;
+}
+.drop-or-upload {
+  position: absolute;
+  top: 580px;
+  left: calc(50% - 231px);
+}
+.drive-icon,
+.dropbox-icon,
+.url-icon {
+  position: absolute;
+  top: 596px;
+  left: 834px;
+  width: 123px;
+  height: 109px;
+  object-fit: cover;
+}
+.drive-icon,
+.url-icon {
+  top: 607px;
+  left: 930px;
+  height: 98px;
+}
+.url-icon {
+  top: 601px;
+  left: 1038px;
+  width: 122px;
+  height: 110.81px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 0.79px;
+  left: 565.65px;
+  border-radius: 30.42px;
+  width: 1377.01px;
+  height: 44.24px;
+}
+.vector-icon10,
+.vector-icon11,
+.vector-icon9 {
+  position: absolute;
+  top: 5px;
+  left: 1757px;
+  width: 35px;
+  height: 37.89px;
+  cursor: pointer;
+}
+.vector-icon10,
+.vector-icon11 {
+  top: 4px;
+  left: 1651px;
+  width: 34px;
+}
+.vector-icon11 {
+  top: 5px;
+  left: 1863px;
+}
+.texpress4 {
+  margin: 0;
+}
+.texpress-txt1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.texpress3 {
+  position: absolute;
+  top: 45.82px;
+  left: 179.21px;
+  font-size: 40.73px;
+  background: linear-gradient(90deg, #76ba1b 38.24%, #00a3c7 62.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: flex-end;
+  width: 216.88px;
+  cursor: pointer;
+}
+.div2,
+.texpressgmailcom1 {
+  position: absolute;
+  color: var(--color-white);
+}
+.div2 {
+  top: 7px;
+  left: 1430px;
+  font-size: 25.32px;
+}
+.texpressgmailcom1 {
+  top: 6px;
+  left: 1077px;
+  font-size: var(--font-size-7xl);
+  display: flex;
+  align-items: flex-end;
+  width: 254px;
+  cursor: pointer;
+}
+.loginsignup2,
+.pricing2 {
+  position: absolute;
+  top: 135px;
+}
+.pricing2 {
+  left: 1880.24px;
+  cursor: pointer;
+}
+.loginsignup2 {
+  left: 1709.44px;
+  width: 129px;
+  height: 28px;
+}
+.de-compress2,
+.loginsignup2,
+.more-tools2 {
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.more-tools2 {
+  position: absolute;
+  top: 135px;
+  left: 1553.78px;
+  width: 114px;
+  height: 28px;
+}
+.de-compress2 {
+  left: 1373.33px;
+  width: 139.12px;
+}
+.compress3,
+.de-compress2,
+.home3 {
+  position: absolute;
+  top: 135px;
+}
+.compress3 {
+  left: 1230.08px;
+  color: var(--color-yellowgreen-300);
+}
+.home3 {
+  left: 1126.77px;
+  cursor: pointer;
+}
+.frame-child3 {
+  position: absolute;
+  top: 173px;
+  left: 1235px;
+  background-color: var(--color-yellowgreen-300);
+  width: 92px;
+  height: 3px;
+}
+.frame-icon5,
+.vector-group {
+  position: absolute;
+  top: 1px;
+  left: 1353px;
+  width: 40px;
+  height: 42.86px;
+  overflow: hidden;
+}
+.vector-group {
+  top: 0;
+  left: 0;
+  width: 1984px;
+  height: 188px;
+  opacity: 0;
+  font-size: 22.45px;
+}
+.vector-group.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.compress2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1133px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-oxygen);
+}
