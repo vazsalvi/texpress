@@ -42,6 +42,7 @@ npm install
 # Start the development server
 npm start
 
+```
 ---
 
 ## 🛠️ Technologies Used
