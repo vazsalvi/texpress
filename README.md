@@ -48,7 +48,6 @@ npm start
 ## 🛠️ Technologies Used
 
 - Node.js  
-- Express.js  
 - HTML, CSS, JS  
 - Custom Compression Algorithm  
 - Visual Studio Code  
